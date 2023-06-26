@@ -1,5 +1,6 @@
 import streamlit as st
 from PIL import Image
+st.balloons()
 st.write("1962 Telangana Services")
 image = Image.open('cow.jpg')
 st.image(image, caption='Save Animals, Dail 1962')
